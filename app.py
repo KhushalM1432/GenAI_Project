@@ -25,7 +25,7 @@ def model_response(text: str, model_name = "llama-3.3-70b-versatile"):
             }
         ],
         model = model_name,
-        stream=True
+        stream = True
     )
 
     for chunk in stream:
